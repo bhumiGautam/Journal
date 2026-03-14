@@ -1,5 +1,5 @@
 
-const API = "http://localhost:5000"
+const API = "https://journal-backend-0wqf.onrender.com"
 
 export const getEntries = async (userId) => {
   const res = await fetch(`${API}/api/journal/${userId}`)
